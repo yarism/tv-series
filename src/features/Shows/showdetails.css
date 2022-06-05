@@ -1,0 +1,16 @@
+.title {
+  color: white;
+}
+
+.summary {
+  color: var(--text-color);
+}
+
+.headline__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.headline__container img {
+  width: 50%;
+}
