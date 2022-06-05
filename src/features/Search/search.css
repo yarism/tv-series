@@ -14,6 +14,13 @@
   margin-bottom: 20px;
 }
 
+@media screen and (max-width: 640px) {
+  .searchBox {
+    width: calc(100% - 40px);
+    margin: 0 20px;
+  }
+}
+
 .searchResults {
   list-style-type: none;
   padding-inline-start: 20px;

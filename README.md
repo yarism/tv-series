@@ -25,3 +25,4 @@ You will also see any lint errors in the console.
 - Writing tests with RTL.
 - Offline indication for the end user.
 - Divide components into smaller components.
+- Hastily written CSS, use rems instead, more variables

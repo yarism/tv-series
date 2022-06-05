@@ -23,7 +23,7 @@ function ShowDetails() {
 
   if (status === "success") {
     return (
-      <div>
+      <div className="details__container">
         <div className="headline__container">
           <h1 className="title">{data.name}</h1>
           {data.image && <img alt={data.name} src={data.image.medium} />}

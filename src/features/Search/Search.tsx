@@ -24,7 +24,7 @@ function Search() {
   );
 
   return (
-    <div>
+    <>
       <input className="searchBox" type="search" placeholder="Find your show here..." onChange={(e) => setSearchString(e.currentTarget.value)}></input>
       {status === "loading" && (
         <div className="loader"></div>
@@ -44,7 +44,7 @@ function Search() {
           ))}
         </ul>
       )}
-    </div>
+    </>
   )
 }
 
