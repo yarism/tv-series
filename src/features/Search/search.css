@@ -51,7 +51,7 @@
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
-  height: 70px;
+  height: 73px;
 }
 
 .searchResults__listItem:hover .searchResults__title {
