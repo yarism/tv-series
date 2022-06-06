@@ -54,6 +54,12 @@
   height: 73px;
 }
 
+@media screen and (max-width: 640px) {
+  .searchResults__summary {
+    height: 80px;
+  }
+}
+
 .searchResults__listItem:hover .searchResults__title {
   color: var(--link-hover);
 }
